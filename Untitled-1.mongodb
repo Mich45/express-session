@@ -1,0 +1,65 @@
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+
+// Select the database to use.
+use('express-session');
+
+
+// The drop() command destroys all data from a collection.
+// Make sure you run it against the correct database and collection.
+
+db.users.insertMany([
+    {
+        name: 'Michael Hungbo',
+        username: 'mich45',
+        email: 'michhungbo@gmail.com',
+        password: 'testtest'
+    },
+    {
+        name: 'Maume Hungbo',
+        username: 'maumh2020',
+        email: 'mhungbomam@gmail.com',
+        password: 'testtest'
+    },
+    {
+        name: 'Mary Doe',
+        username: 'maryd12',
+        email: 'mdoemary@gmail.com',
+        password: 'testtest343'
+    },
+    {
+        name: 'John Doe',
+        username: 'jdoe21',
+        email: 'Jdoe@gmail.com',
+        password: 'testtest657575'
+    },
+    {
+        name: 'Mimi Doe',
+        username: 'mdoe123',
+        email: 'mimi@gmail.com',
+        password: 'testtest23232'
+    },
+    {
+        name: 'Johnny Drake',
+        username: 'johndrake',
+        email: 'jdrake@gmail.com',
+        password: 'testtest3343535'
+    },
+    {
+        name: 'Alan Walker',
+        username: 'alan12',
+        email: 'awalker@gmail.com',
+        password: 'testtest'
+    },
+    {
+        name: 'Peter Parker',
+        username: 'peter123',
+        email: 'peterparker@gmail.com',
+        password: 'testtest99090'
+    }
+])
+
+
+
